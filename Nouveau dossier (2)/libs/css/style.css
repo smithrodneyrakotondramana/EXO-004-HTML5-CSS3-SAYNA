@@ -1,0 +1,187 @@
+/* ------Général--------- */
+@font-face {
+    font-family: "font1";
+    src: url(/Assets/Fonts/Far-From\ Homecoming\ Updated.otf);
+}
+@font-face {
+    font-family: "font2";
+    src: url(/Assets/Fonts/Montserrat-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav-link {
+    color: #ffffff;
+}
+.nav-link:hover {
+    color: #9c9898;
+}
+/*.......................................................................................................................................................*/
+/* ============ *****  ACCEUIL  ***** ============ */
+/* HEADER */
+.bg_red {
+    background-color: #b11313;
+}
+header .header_part_2 {
+    background: url(/Assets/Illustration/img1.png) no-repeat center right;
+    background-size: cover;
+}
+.spidermann {
+    padding-top: 25%;
+    padding-bottom: 10%;
+}
+h1 {
+    font-family: "font1", sans-serif;
+    font-size: 90px;
+}
+.bouttons {
+    padding: 10% 0;
+}
+.btn {
+    color: #b11313;
+    border-radius: 15px;
+}
+@media screen and (max-width: 768px) {
+    .spidermann {
+        padding: 30% 0 20% 10%;
+    }
+}
+@media screen and (max-width: 962px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+/* CONTENUS */
+main .section_1 {
+    background-color: #b11313;
+}
+figure {
+    width: 302px;
+}
+figcaption {
+    margin: 35px 0;
+    font-family: "font2", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
+main .section_2 {
+    background: url(/Assets/Illustration/img5.png) no-repeat;
+    background-color: #114c92;
+}
+h3 {
+    font-family: "font1", sans-serif;
+}
+#submit_btn {
+    width: 30%;
+    border-radius: 15px;
+}
+main input {
+    width: 60%;
+    border-radius: 25px;
+}
+.in_newsletter::placeholder {
+    color: #ffffff;
+}
+main .section_3 {
+    background: url(/Assets/Illustration/img6.png) no-repeat top right;
+    background-color: #b11313;
+}
+/* FOOTER */
+footer {
+    background-color: #000000;
+}
+.li_right {
+    margin-right: 40px;
+}
+.li_left {
+    margin-left: 40px;
+}
+@media screen and (max-width: 1290px) {
+    .li_right {
+        margin-right: 0;
+    }
+    .li_left {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 1060px) {
+    .footer_part_1 {
+        display: none;
+    }
+}
+/*.......................................................................................................................................................*/
+/* ============ *****  ADVERSAIRES   ***** ============ */
+/* HEADER-of-adversaires-pages */
+.bg_yelllow {
+    background-color: #f1c530;
+}
+.adversaires_header_2 {
+    background: url(/Assets/Illustration/img7.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.super_vilains {
+    padding: 16% 0;
+}
+@media screen and (max-width: 768px) {
+    .super_vilains {
+        padding: 30% 0 20% 10%;
+    }
+}
+/* CONTENUS */
+.card {
+    border: none;
+}
+.card-body {
+    border: 8px solid;
+    border-top: none;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+/*.......................................................................................................................................................*/
+/* ============ *****  HEROS   ***** ============ */
+/* HEADER-of-hero-page */
+.bg_blue {
+    background-color: #114c92;
+}
+.heros_header_2 {
+    background: url(/Assets/Illustration/img19.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.un_hero {
+    padding: 20% 0 10% 0;
+}
+/*.......................................................................................................................................................*/
+/* ============ *****  À PROPOS   ***** ============ */
+/* HEADER-of-à propos-page */
+.apropos_header_2 {
+    background: url(/Assets/Illustration/img5.0.png) no-repeat right;
+    background-color: #f1c530;
+}
+.la_toile {
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+div .form_white::placeholder {
+    color: white;
+}
+div .form_white {
+    width: 60%;
+}
+main div #form_message_apropos {
+    border-radius: 10px;
+    height: 150px;
+}
+main div #submit_btn_apropos {
+    width: 25%;
+    border-radius: 15px;
+}
+/*.......................................................................................................................................................*/
+/* ============ *****  BONUS   ***** ============ */
+main .bonus {
+    padding-top: 25%;
+    background: url(/Assets/Illustration/img35.png) no-repeat bottom center;
+    background-size: cover;
+}
